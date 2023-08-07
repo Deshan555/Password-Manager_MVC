@@ -1,18 +1,6 @@
 <?php
 require 'config.php';
 
-/*try{
-    $conn = new PDO("mysql:host=$server;dbname=$database;dbport=$port", $username, $password);
-
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    
-    echo "Connected successfully";
-
-}catch(PDOException $e){
-    
-    die("Connection Faild : ".$e->getMessage());
-}*/
-
 class Database{
     private $conn;
     private $db_host;
