@@ -12,3 +12,4 @@ $db = [
 foreach($db as $key => $value){
     $GLOBALS[$key] = $value;
 }
+

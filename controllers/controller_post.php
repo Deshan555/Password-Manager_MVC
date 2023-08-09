@@ -12,9 +12,7 @@ class postsController{
 
     public function get_All_Posts(){
         $posts = $this->posts->fetch_all_posts();
-
-        var_dump($posts);
-
-        die;
+        require 'view/view_post.php';
+        exit;
     }
 }
